@@ -16,31 +16,39 @@ function generatePassword() { //The function to generate a random password based
 
   var lowercase = confirm ("Do you want to include lowercase letters in your password?")
     if (lowercase = true) {
-      for (var i=0; i<lowercaseCharacters.length; i++){ //for loop that will use the push method to add the lowercase letters into the passwordInput array
+      for (var i=0; i<lowercaseCharacters.length; i++){ //for loop that will use the push method to add the lowercase letters into the passwordInput array using the previously input length variable from the prompt
         passwordInputs.push(lowercaseCharacters[i]) 
       }
     }
 
   var uppercase = confirm ("Do you want to include uppercase letters in your password?")
     if (uppercase = true) {
-
+      for (var i=0; i<uppercaseCharacters.length; i++){ 
+        passwordInputs.push(uppercaseCharacters[i]) 
+      }
     }
 
   var numbers = confirm ("Do you want to include numbers in your password?")
     if (numbers = true) {
-
+      for (var i=0; i<numberCharacters.length; i++){ 
+        passwordInputs.push(numberCharacters[i]) 
+      }
     }
 
-  var specialcharacters = confirm ("DO you want to include special characters in your password?")
+  var specialcharacters = confirm ("Do you want to include special characters in your password?")
     if (specialcharacters = true) {
-
+      for (var i=0; i<specialCharacters2.length; i++){ 
+        passwordInputs.push(specialCharacters2[i]) 
+      }
     }
+console.log (passwordInputs) //testing to see if the console promperly is logging the array of inputs from the previous for loops
 
+for (var i=0; i<length; i++){  //for loop that will use the Math.random method to randomize the array based of the input length from the prompt, then set the randompassword variable to be the result.
+  passwordInputs[Math.floor(Math.random() * passwordInputs.length)]
+  randomPassword +=  passwordInputs[Math.floor(Math.random() * passwordInputs.length)]
+  }
 
-
-
-
-
+return randomPassword //returns the random password variable 
 }
 
 // Get references to the #generate element
