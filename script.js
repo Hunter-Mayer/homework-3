@@ -16,7 +16,7 @@ function generatePassword() { //The function to generate a random password based
 
   var lowercase = confirm ("Do you want to include lowercase letters in your password?")
     if (lowercase === true) {
-      for (var i=0; i<lowercaseCharacters.length; i++){ //for loop that will use the push method to add the lowercase letters into the passwordInput array using the previously input length variable from the prompt
+      for (var i=0; i<lowercaseCharacters.length; i++){ //for loop that will use the push method to add the lowercase letters into the passwordInput array using the previously input length variable from the prompt. Copied to each other scenario with variables changed. 
         passwordInputs.push(lowercaseCharacters[i]) 
       }
     }
