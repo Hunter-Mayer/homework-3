@@ -1,7 +1,7 @@
 # Hunter Mayer Homework Challenge 3
 
 ## Description
-Add here  
+In this assignment I wrote the JavaScript needed for a password generator using prompts and confirms that the user inputs. I primarily used what I learned of if statements and for loops in order to create a function that would take in the inputs from the user to generate a password of varying lengths, lowercase, uppercase, numbers, and special characters. 
 
 ### Acceptance Criteria
 GIVEN I need a new, secure password
