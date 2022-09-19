@@ -22,15 +22,15 @@ THEN the password is either displayed in an alert or written to the page
 
 ### Screenshot
 
-![screenshot](add here)
+![screenshot](/Images/homework-3-screencap.png)
 
 
 
 ### Deployed Application Links
 
-Github Repo: add url here
+Github Repo: https://github.com/Hunter-Mayer/homework-3
 
-Github Page: add url here
+Github Page: https://hunter-mayer.github.io/homework-3/
 
 ## Credits
 
