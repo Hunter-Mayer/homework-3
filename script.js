@@ -12,6 +12,7 @@ function generatePassword() { //The function to generate a random password based
   var length = prompt("Please enter a number between 8 and 128.") //Asks user to enter a valid number for the password generator
     if (length < 8 || length > 128) {
       alert("Incorrect, please enter a number between 8 and 128.")
+      return;
     } 
 
   var lowercase = confirm ("Do you want to include lowercase letters in your password?")
